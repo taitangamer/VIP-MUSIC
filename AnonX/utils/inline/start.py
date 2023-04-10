@@ -9,7 +9,7 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="☆ 𝐀𝐝𝐝 𝐌𝐞 𝐌𝐨𝐢 𝐋𝐮𝐯 ☆",
+                text="☆ 𝐀𝐝𝐝 𝐌𝐞 𝐁𝐚𝐛𝐲 ☆",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         ],
@@ -50,11 +50,6 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
                 text="🏠𝐎𝐟𝐟𝐢𝐜𝐞🏠", url=f"https://t.me/AlonesHeaven",
             )
         ],
-        [
-            InlineKeyboardButton(
-                text="🌱ƨσʋяcɛ🌱",
-                url=f"https://telegra.ph/file/766b5386441209ad89cf8.mp4",
-            )
         ],
      ]
     return buttons
