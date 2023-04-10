@@ -17,43 +17,43 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     anon = math.floor(percentage)
     if 0 < anon <= 10:
 
-        bar = "◉—————————"
+        bar = "◉———————"
 
     elif 10 < anon < 20:
 
-        bar = "—◉————————"
+        bar = "—◉——————"
 
     elif 20 <= anon < 30:
 
-        bar = "——◉———————"
+        bar = "——◉—————"
 
     elif 30 <= anon < 40:
 
-        bar = "———◉——————"
+        bar = "———◉————"
 
     elif 40 <= anon < 50:
 
-        bar = "————◉—————"
+        bar = "————◉———"
 
-    elif 50 <= anon < 60:
+    elif 50 <= anon < 70:
 
-        bar = "—————◉————"
+        bar = "—————◉——"
 
-    elif 60 <= anon < 70:
+    elif 60 <= anon < 80:
 
-        bar = "——————◉———"
+        bar = "——————◉—"
 
-    elif 70 <= anon < 80:
+    elif 70 <= anon < 100:
 
-        bar = "———————◉——"
+        bar = "———————◉"
 
-    elif 80 <= anon < 95:
 
-        bar = "————————◉—"
 
-    else:
 
-        bar = "—————————◉"
+
+
+
+
     buttons = [
         [
             InlineKeyboardButton(
@@ -103,43 +103,43 @@ def telegram_markup_timer(_, chat_id, played, dur):
     anon = math.floor(percentage)
     if 0 < anon <= 10:
 
-        bar = "◉—————————"
+        bar = "◉———————"
 
     elif 10 < anon < 20:
 
-        bar = "—◉————————"
+        bar = "—◉——————"
 
     elif 20 <= anon < 30:
 
-        bar = "——◉———————"
+        bar = "——◉—————"
 
     elif 30 <= anon < 40:
 
-        bar = "———◉——————"
+        bar = "———◉————"
 
     elif 40 <= anon < 50:
 
-        bar = "————◉—————"
+        bar = "————◉———"
 
     elif 50 <= anon < 60:
 
-        bar = "—————◉————"
+        bar = "—————◉——"
 
     elif 60 <= anon < 70:
 
-        bar = "——————◉———"
+        bar = "——————◉—"
 
     elif 70 <= anon < 80:
 
-        bar = "———————◉——"
+        bar = "———————◉"
 
-    elif 80 <= anon < 95:
+    elif 80 <= anon < 100:
 
-        bar = "————————◉—"
+
 
     else:
 
-        bar = "—————————◉"
+
 
     buttons = [
         [
