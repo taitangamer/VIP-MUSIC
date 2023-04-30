@@ -9,17 +9,17 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="☆ 𝐀𝐝𝐝 𝐌𝐞 𝐁𝐚𝐛𝐲 ☆",
+                text="☆ 𝐀𝐃𝐃 𝐌𝐄 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 ☆",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         ],
         [
             InlineKeyboardButton(
-                text="🎭 𝐇𝐞𝐥𝐩 🎭",
+                text="🎭 𝐇𝐄𝐋𝐏 🎭",
                 callback_data="settings_back_helper",
             ),
             InlineKeyboardButton(
-                text="🕹️ 𝐒𝐞𝐭𝐭𝐢𝐧𝐠𝐬 🕹️", callback_data="settings_helper"
+                text="🕹️ 𝐒𝐄𝐓𝐓𝐈𝐍𝐆𝐒 🕹️", callback_data="settings_helper"
             ),
         ],
      ]
@@ -30,26 +30,31 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="☆ ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ʙᴀʙʏ☆",
+                text="☆ 𝐀𝐃𝐃 𝐌𝐄 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 ☆",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         ],
         [
             InlineKeyboardButton(
-                text="📍𝐎𝐰𝐧𝐞𝐫📍", user_id=OWNER
+                text="📍𝐌𝐀𝐈𝐍𝐓𝐀𝐈𝐍𝐄𝐑📍", url=f"https//t.me/taitangamerz
             ),
             InlineKeyboardButton(
-                text="🎭 𝐇𝐞𝐥𝐩 🎭", callback_data="settings_back_helper"
+                text="🎭 𝐇𝐄𝐋𝐏 🎭", callback_data="settings_back_helper"
             )
         ],
         [
             InlineKeyboardButton(
-                text="🍒𝐆𝐫𝐨𝐮𝐩🍒", url=config.SUPPORT_GROUP
+                text="🍒 𝐆𝐑𝐎𝐔𝐏 🍒", url=f"https://t.me/timepassgroup01
             ),
             InlineKeyboardButton(
-                text="🏠𝐎𝐟𝐟𝐢𝐜𝐞🏠", url=f"https://t.me/AlonesHeaven",
+                text="🏠 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 🏠", url=f"https://t.me/Dangerous_fighter_clan_1",
             )
         ],
+        [
+            InlineKeyboardButton(
+                text="♛ 𝐎𝐖𝐍𝐄𝐑 ♛",
+                url=f"https://t.me/taitangamerzz",
+            )
         ],
      ]
     return buttons
