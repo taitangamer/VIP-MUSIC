@@ -42,7 +42,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         [
             InlineKeyboardButton(
                 text="🥀 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 💥", url="https://t.me/dangerous_fighter_clan_0")
-            ),
+            )
             InlineKeyboardButton(
                 text="🥀 𝐆𝐑𝐎𝐔𝐏 💥", url="https://t.me/timepassgroup01")
         ],
