@@ -28,33 +28,34 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
 
 def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
-        [
             InlineKeyboardButton(
-                text="☆ 𝐀𝐃𝐃 𝐌𝐄 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 ☆",
+                text="☆ 𝐀𝐝𝐝 𝐌𝐞 𝐌𝐨𝐢 𝐋𝐮𝐯 ☆",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         ],
         [
             InlineKeyboardButton(
-                text="📍𝐌𝐀𝐈𝐍𝐓𝐀𝐈𝐍𝐄𝐑📍", url=f"https//t.me/taitangamerz"
+                text="📍𝐎𝐰𝐧𝐞𝐫📍", user_id=OWNER
             ),
             InlineKeyboardButton(
-                text="🎭 𝐇𝐄𝐋𝐏 🎭", callback_data="settings_back_helper"
+                text="🎭 𝐇𝐞𝐥𝐩 🎭", callback_data="settings_back_helper"
             )
         ],
         [
             InlineKeyboardButton(
-                text="🍒 𝐆𝐑𝐎𝐔𝐏 🍒", url=f"https://t.me/timepassgroup01"
+                text="🍒𝐆𝐫𝐨𝐮𝐩🍒", url=config.SUPPORT_GROUP
             ),
             InlineKeyboardButton(
-                text="🏠 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 🏠", url=f"https://t.me/Dangerous_fighter_clan_1",
+                text="🏠𝐎𝐟𝐟𝐢𝐜𝐞🏠", url=f"https://t.me/VIP_CREATORS",
             )
         ],
         [
             InlineKeyboardButton(
-                text="♛ 𝐎𝐖𝐍𝐄𝐑 ♛",
-                url=f"https://t.me/taitangamerzz",
+                text="🌱ƨσʋяcɛ🌱",
+                url=f"https://github.com/THE-VIP-BOY-OP/VIP-MUSIC",
             )
         ],
      ]
     return buttons
+
+    
