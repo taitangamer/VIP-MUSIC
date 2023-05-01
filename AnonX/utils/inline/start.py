@@ -1,4 +1,4 @@
-           from typing import Union
+from typing import Union
 
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
@@ -36,15 +36,15 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="📍𝐌𝐀𝐍𝐓𝐀𝐈𝐍𝐄𝐑📍", url="t.me/taitangamerz",
+                text="📍𝐌𝐀𝐍𝐓𝐀𝐈𝐍𝐄𝐑📍", user_id=OWNER
             ),
             InlineKeyboardButton(
-                text="🎭 𝐇𝐄𝐋𝐏 🎭", callback_data="settings_back_helper",
+                text="🎭 𝐇𝐄𝐋𝐏 🎭", callback_data="settings_back_helper"
             )
         ],
         [
             InlineKeyboardButton(
-                text="🍒 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 🍒", url="dangerous_fighter_clan_0",
+                text="🍒 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 🍒", url="dangerous_fighter_clan_0"
             ),
             InlineKeyboardButton(
                 text="🏠 𝐆𝐑𝐎𝐔𝐏 🏠", url=f"https://t.me/timepassgroup01",
